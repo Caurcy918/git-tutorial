@@ -38,6 +38,7 @@ int main()
 
     Main main3 = main1 + main2;
     std::cout << main3 << std::endl;
+    main3.printValues();
 
     return 0;
 }
